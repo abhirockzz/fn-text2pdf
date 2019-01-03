@@ -4,6 +4,7 @@ This Function converts a text file to PDF. It reads a text (`.txt`) file from a 
 
 - It's written in Go and uses [gofpdf](https://github.com/jung-kurt/gofpdf) for text to PDF conversion 
 - Uses the [OCI Go SDK](https://github.com/oracle/oci-go-sdk) to execute Object Storage read and write operations
+- A custom Dockerfile is used to build the function
 
 ## Pre-requisites
 
