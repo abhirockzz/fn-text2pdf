@@ -1,4 +1,4 @@
-# Function to convert text to PDF file
+# Function for converting text to PDF
 
 This Function converts a text file to PDF. It reads a text (`.txt`) file from a Oracle Cloud Infrastructure Object Storage Bucket, converts it into PDF and stores the converted file in the same bucket (with a `.pdf` extension)
 
