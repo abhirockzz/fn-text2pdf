@@ -21,11 +21,11 @@ This Function converts a text file to PDF. It reads a text (`.txt`) file from a 
 
 ## Create application
 
-`fn create app text2pdf --config TENANT_OCID=<TENANT_OCID> --config USER_OCID=<USER_OCID> --config FINGERPRINT=<FINGERPRINT> --config PASSPHRASE=<PASSPHRASE> --config REGION=<REGION> --config PRIVATE_KEY_NAME=<PRIVATE_KEY_NAME> --config NAMESPACE=<NAMESPACE> --config BUCKET_NAME=<BUCKET_NAME>`
+`fn create app text2pdf --annotation oracle.com/oci/subnetIds=<SUBNETS> --config TENANT_OCID=<TENANT_OCID> --config USER_OCID=<USER_OCID> --config FINGERPRINT=<FINGERPRINT> --config PASSPHRASE=<PASSPHRASE> --config REGION=<REGION> --config PRIVATE_KEY_NAME=<PRIVATE_KEY_NAME> --config NAMESPACE=<NAMESPACE> --config BUCKET_NAME=<BUCKET_NAME>`
 
 e.g.
 
-`fn create app text2pdf --config TENANT_OCID=ocid1.tenancy.oc1..aaaaaaaaydrjm77otncda2xn7qtv7l3hqnd3zxn2u6siwdhniibwfv4wwhta --config USER_OCID=ocid1.user.oc1..aaaaaaaa4seqx6jeyma46ldy4cbuv35q4l26scz5p4rkz3rauuoioo26qwmq --config FINGERPRINT=41:82:5f:44:ca:a1:2e:58:d2:63:6a:af:52:d5:3d:04 --config PASSPHRASE=1987 --config REGION=us-phoenix-1 --config PRIVATE_KEY_NAME=oci_private_key.pem --config NAMESPACE=oracle-functions --config BUCKET_NAME=test-bucket`
+`fn create app text2pdf --annotation oracle.com/oci/subnetIds='["ocid1.subnet.oc1.phx.aaaaaaaaghmsma7mpqhqdhbgnby25u2zo4wqlrrcskvu7jg56dryxt3hgvkz"]' --config TENANT_OCID=ocid1.tenancy.oc1..aaaaaaaaydrjm77otncda2xn7qtv7l3hqnd3zxn2u6siwdhniibwfv4wwhta --config USER_OCID=ocid1.user.oc1..aaaaaaaa4seqx6jeyma46ldy4cbuv35q4l26scz5p4rkz3rauuoioo26qwmq --config FINGERPRINT=41:82:5f:44:ca:a1:2e:58:d2:63:6a:af:52:d5:3d:04 --config PASSPHRASE=1987 --config REGION=us-phoenix-1 --config PRIVATE_KEY_NAME=oci_private_key.pem --config NAMESPACE=oracle-functions --config BUCKET_NAME=test-bucket`
 
 ### Check
 

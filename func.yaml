@@ -1,10 +1,6 @@
 schema_version: 20180708
 name: convert
-version: 0.0.1
+version: 0.0.2
 runtime: go
 entrypoint: ./func
 format: http
-triggers:
-- name: convert
-  type: http
-  source: /convert
